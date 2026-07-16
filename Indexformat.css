@@ -1,0 +1,44 @@
+h2 {
+    color: #f20808;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    padding: 0px;
+}
+#reg_no {
+    color: #f20808;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+#name {
+    color: #5a08f2;
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+}
+#Gender {
+    color: #08f285;
+    font-size: 20px;
+    text-align: middle;
+    font-weight: bold;
+
+}
+address {
+    color: #f24608;
+    font-size: 20px;
+    text-align: middle;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.form-box {
+    width: 400px;
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 20px;
+
+}

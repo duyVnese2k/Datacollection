@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Indexformat.css">
+    <title>Forms with MySql</title>
+    <img src="Vietnam_Immigration_Department_Logo.jpg"  id="loading-image" style="width: 100px; height: 100px; align: center; display: block; margin-left: auto; margin-right: auto;">
+</head>
+<body>
+<h2>Nhập dữ liệu cán bộ</h2>
+<div class = "form-box">
+    <form method="POST" action="insert_query.php">
+    <p id="reg_no">  Số hiệu: <input type="text" name="reg_no" ></p>
+    <p id="name">Học và tên: <input type="text" name="name" ></p>
+    <p id="Gender">Giới tính: <input type="radio" name="gender"
+                                value = "Female"> Nữ
+                    <input type="radio" name="gender"
+                                value="Male">Nam
+                    <input type="radio" name="gender"
+                                value="Other">Khác
+    <p id ="address"> Địa chỉ <textarea name="address" rows="5" cols="40" width="200" height="100">      
+                            </textarea> </p>
+    <p>Mã môn học: <input type="text" name="sub_code"></p>
+    <p>Internal Mark: <input type="text" name="int_mark"></p>
+    <p>External Mark: <input type="text" name="ext_mark"></p>
+    <p><input type="Submit" value="Submit"></p>
+    </form>
+<div>
+
+</body>
+</html>
